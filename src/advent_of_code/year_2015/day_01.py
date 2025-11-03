@@ -21,3 +21,6 @@ def part_2():
     for i, total in enumerate(accumulate(values, initial=0)):
         if total == -1:
             return i
+
+print(part_1())
+print(part_2())
